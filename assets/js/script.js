@@ -38,6 +38,4 @@ for(var i = 0; i<lista_cognomi.length; i++){
 
   //faccio stampare gli elementi precedenti + il cognome dell'utente inserito ed il posizionamento. tutto racchiuso in un "<li></li>"
   document.getElementById("lista").innerHTML = elemento_precedente + "<li>" + element_list + " il cognome si trova nella posizione n:  " + posizione_lista;
-
-  lista_cognomi[last_name_utente] = document.getElementById("lista").innerHTML = "il cognome dell'utente si trova nella posizione n:  "
 }
